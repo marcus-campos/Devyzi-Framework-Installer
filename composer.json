@@ -1,0 +1,25 @@
+{
+  "name":"Devyzi/Framework",
+  "authors":[
+    {
+      "name":"Marcus Vinícius Campos",
+      "email":"marcus_vinicius_campos@hotmail.com"
+    }
+  ],
+  "require":{
+    "php":">=5.6",
+    "illuminate/view": "5.2.*",
+    "illuminate/html": "5.*",
+    "robmorgan/phinx": "^0.6.2"
+  },
+  "require-dev": {
+    "symfony/css-selector": "2.8.*|3.0.*",
+    "symfony/dom-crawler": "2.8.*|3.0.*"
+  },
+  "autoload":{
+    "psr-4":{
+      "DEVYZI\\":"vendor/DEVYZI",
+      "App\\":"App/"
+    }
+  }
+}
